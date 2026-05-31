@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Eventos — PĀRSA</title>
+
+  <meta name="description" content="Eventos e conferências do PĀRSA — Grupo de Estudos Aquemênidas">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+  <div class="brand">
+    PĀRSA
+  </div>
+
+  <ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="historico.html">Histórico</a></li>
+    <li><a href="eventos.html">Eventos</a></li>
+  </ul>
+
+</nav>
+
+<section class="page">
+
+<h1>Eventos</h1>
+
+<div class="cards">
+
+<!-- Mateus -->
+
+<div class="card">
+
+<img src="mateus.png" class="event-img">
+
+<div class="card-content">
+
+<span class="event-date">
+19/05/2026
+</span>
+
+<h3>
+Mateus Mello
+</h3>
+
+<p>
+Conferência “Cunhagens helenísticas na Ásia
+e o patrimônio cultural persa”, ministrada
+por Mateus Mello (UFF), online.
+</p>
+
+</div>
+
+</div>
+
+<!-- Cintia -->
+
+<div class="card">
+
+<img src="cintia.png" class="event-img">
+
+<div class="card-content">
+
+<span class="event-date">
+26/03/2026
+</span>
+
+<h3>
+Cintia Gama-Rolland
+</h3>
+
+<p>
+Conferência “Coleção egiptológica do
+Musée des Confluences”, ministrada
+por Cintia Gama-Rolland.
+</p>
+
+</div>
+
+</div>
+
+<!-- Francesco -->
+
+<div class="card">
+
+<img src="francesco.png" class="event-img">
+
+<div class="card-content">
+
+<span class="event-date">
+16/12/2025
+</span>
+
+<h3>
+Francesco Giannone
+</h3>
+
+<p>
+“Guerreiros da Anatólia:
+Introdução à Arqueologia e aos Textos
+dos Hititas”.
+</p>
+
+</div>
+
+</div>
+
+<!-- Jason -->
+
+<div class="card">
+
+<img src="jason.png" class="event-img">
+
+<div class="card-content">
+
+<span class="event-date">
+05/05/2025
+</span>
+
+<h3>
+Jason Silverman
+</h3>
+
+<p>
+“Studying labor as a social key
+to the ancient temple economy
+in the Persian Empire”.
+</p>
+
+</div>
+
+</div>
+
+<!-- Charlotte -->
+
+<div class="card">
+
+<img src="charlotte.png" class="event-img">
+
+<div class="card-content">
+
+<span class="event-date">
+21/07/2025
+</span>
+
+<h3>
+Charlotte Howley
+</h3>
+
+<p>
+“Transhistorical approaches to court eunuchs,
+from the Neo-Assyrians to the Sasanians”.
+</p>
+
+</div>
+
+</div>
+
+<!-- Caio -->
+
+<div class="card">
+
+<img src="caio.png" class="event-img">
+
+<div class="card-content">
+
+<span class="event-date">
+19/05/2025
+</span>
+
+<h3>
+Caio Borges
+</h3>
+
+<p>
+Conferência sobre luvita hieroglífico,
+ministrada na Sala de Vídeo
+do Departamento de História.
+</p>
+
+</div>
+
+</div>
+
+<!-- Isabela -->
+
+<div class="card">
+
+<img src="isabela.png" class="event-img">
+
+<div class="card-content">
+
+<span class="event-date">
+14/03/2024
+</span>
+
+<h3>
+Isabela Casellato Torres
+</h3>
+
+<p>
+Discussão sobre a representação
+das mulheres persas na obra
+de Heródoto.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© Pārsa — Achaemenid Studies Group
+</footer>
+
+</body>
+</html>
