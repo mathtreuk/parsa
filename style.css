@@ -1,82 +1,82 @@
-@import url('[https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;500;600&display=swap](https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;500;600&display=swap)');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;500;600&display=swap');
 
 *{
 margin:0;
 padding:0;
-box-sizing:border-box;
+box-sizing;
 }
 
 html{
-scroll-behavior:smooth;
+scroll-behavior;
 }
 
 body{
-background:#f3efe6;
+background:#f4f0e7;
 color:#222;
 font-family:'Inter', sans-serif;
-line-height:1.9;
+line-height:1.85;
 }
 
 /* ================= NAVBAR ================= */
 
 .navbar{
-position:fixed;
+position;
 top:0;
 width:100%;
 
 z-index:999;
 
-display:flex;
-justify-content:space-between;
-align-items:center;
+display;
+justify-content;
+align-items;
 
-padding:18px 8%;
+padding:16px 8%;
 
-background:rgba(0,0,0,0.22);
+background(0,0,0,0.20);
 
-backdrop-filter:blur(10px);
+backdrop-filter(10px);
 
 border-bottom:
-1px solid rgba(255,255,255,0.08);
+1px solid rgba(255,255,255,0.06);
 }
 
 .brand{
-color:white;
+color;
 
 font-family:'Cinzel', serif;
 
 letter-spacing:4px;
 
-font-size:1rem;
+font-size:0.95rem;
 
 opacity:0.95;
 }
 
 .navbar ul{
-display:flex;
-gap:34px;
-list-style:none;
+display;
+gap:30px;
+list-style;
 }
 
 .navbar a{
-color:white;
-text-decoration:none;
+color;
+text-decoration;
 
-font-size:0.92rem;
+font-size:0.88rem;
 
 letter-spacing:1px;
 
 transition:0.3s;
 }
 
-.navbar a:hover{
+.navbar a{
 opacity:0.7;
 }
 
 /* ================= HERO ================= */
 
 .hero{
-min-height:72vh;
+min-height:52vh;
 
 background:
 linear-gradient(
@@ -84,44 +84,45 @@ rgba(0,0,0,0.18),
 rgba(0,0,0,0.18)
 ),
 linear-gradient(
-#5f9a91,
-#6ca59d
+#5c968f,
+#699f98
 );
 
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
+display;
+align-items;
+justify-content;
+
+text-align;
 
 padding:
-110px 20px
-70px;
+90px 20px
+45px;
 }
 
 .hero-content{
-max-width:900px;
+max-width:760px;
 }
 
 .logo{
 width:100%;
-max-width:340px;
+max-width:240px;
 
 filter:
 drop-shadow(
-0 10px 22px rgba(0,0,0,0.18)
+0 10px 20px rgba(0,0,0,0.16)
 );
 }
 
 .subtitle{
-margin-top:18px;
+margin-top:16px;
 
-color:#f5eee3;
+color:#f3ece2;
 
-font-size:0.95rem;
+font-size:0.82rem;
 
-letter-spacing:7px;
+letter-spacing:6px;
 
-text-transform:uppercase;
+text-transform;
 
 opacity:0.92;
 }
@@ -129,38 +130,38 @@ opacity:0.92;
 /* ================= SOBRE ================= */
 
 .sobre{
-max-width:1280px;
+max-width:1080px;
 
-margin:auto;
+margin;
 
 padding:
-120px 10%;
+95px 10%;
 
-display:grid;
+display;
 
 grid-template-columns:
 1fr 1fr;
 
-gap:90px;
+gap:55px;
 
-align-items:center;
+align-items;
 }
 
 .sobre-img img{
 width:100%;
 
 box-shadow:
-0 18px 40px rgba(0,0,0,0.10);
+0 16px 34px rgba(0,0,0,0.08);
 }
 
 .sobre-texto h2{
 font-family:'Cinzel', serif;
 
-font-size:2.8rem;
+font-size:2.2rem;
 
 color:#0d6b61;
 
-margin-bottom:28px;
+margin-bottom:24px;
 
 font-weight:600;
 
@@ -168,125 +169,80 @@ letter-spacing:1px;
 }
 
 .sobre-texto p{
-margin-bottom:24px;
+margin-bottom:20px;
 
-font-size:1.02rem;
+font-size:0.97rem;
 
 color:#333;
 
-line-height:2;
+line-height:1.95;
 }
 
 .sobre-texto a{
 color:#8c1f1f;
-text-decoration:none;
+
+text-decoration;
+
 font-weight:600;
 }
 
 /* ================= PÁGINAS ================= */
 
 .page{
-max-width:1150px;
+max-width:1050px;
 
-margin:auto;
+margin;
 
 padding:
-180px 10%
-120px;
+150px 10%
+100px;
 }
 
 .page h1{
 font-family:'Cinzel', serif;
 
-font-size:3rem;
+font-size:2.4rem;
 
-margin-bottom:60px;
+margin-bottom:50px;
 
 color:#0d6b61;
 }
 
-/* ================= HISTÓRICO ================= */
+/* ================= TIMELINE ================= */
 
 .timeline h2{
-margin-top:70px;
-margin-bottom:25px;
+margin-top:65px;
+margin-bottom:22px;
 
 font-family:'Cinzel', serif;
 
 color:#8c1f1f;
 
-font-size:2rem;
+font-size:1.7rem;
 }
 
 .item{
-background:white;
+background;
 
-padding:35px;
+padding:28px;
 
-margin-bottom:25px;
+margin-bottom:18px;
 
 border-left:
-5px solid #0d6b61;
+4px solid #0d6b61;
 
 box-shadow:
-0 8px 18px rgba(0,0,0,0.05);
+0 6px 14px rgba(0,0,0,0.04);
 }
 
 .item strong{
-display:block;
+display;
 
 margin-bottom:10px;
 
 color:#8c1f1f;
 
-font-size:1rem;
-}
-
-/* ================= EVENTOS ================= */
-
-.cards{
-display:grid;
-
-grid-template-columns:
-repeat(auto-fit,minmax(300px,1fr));
-
-gap:30px;
-}
-
-.card{
-background:white;
-
-padding:35px;
-
-border-top:
-5px solid #8c1f1f;
-
-box-shadow:
-0 10px 25px rgba(0,0,0,0.06);
-
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-6px);
-}
-
-.card h3{
-margin-bottom:12px;
-
-font-family:'Cinzel', serif;
-
-color:#0d6b61;
-}
-
-.card span{
-display:block;
-
-margin-bottom:18px;
-
-color:#666;
-
-font-size:0.95rem;
+font-size:0.96rem;
 }
 
 /* ================= FOOTER ================= */
@@ -294,13 +250,13 @@ font-size:0.95rem;
 footer{
 background:#111;
 
-color:#d8d8d8;
+color:#d4d4d4;
 
-text-align:center;
+text-align;
 
-padding:40px;
+padding:32px;
 
-font-size:0.88rem;
+font-size:0.82rem;
 
 letter-spacing:2px;
 }
@@ -310,39 +266,39 @@ letter-spacing:2px;
 @media(max-width:900px){
 
 .navbar{
-flex-direction:column;
-gap:18px;
+flex-direction;
+gap:16px;
 }
 
 .navbar ul{
-flex-wrap:wrap;
-justify-content:center;
+flex-wrap;
+justify-content;
 }
 
 .hero{
-min-height:65vh;
+min-height:48vh;
 }
 
 .logo{
-max-width:260px;
+max-width:190px;
 }
 
 .subtitle{
-font-size:0.82rem;
+font-size:0.74rem;
 letter-spacing:4px;
 }
 
 .sobre{
 grid-template-columns:1fr;
-gap:60px;
+gap:45px;
 }
 
 .sobre-texto h2{
-font-size:2.2rem;
+font-size:2rem;
 }
 
 .page h1{
-font-size:2.3rem;
+font-size:2rem;
 }
 
 }
