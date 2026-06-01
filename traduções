@@ -1,0 +1,261 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>
+Traduções — PĀRSA
+</title>
+
+<link rel="stylesheet"
+      href="style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+  <div class="brand">
+
+    <a href="https://mathtreuk.github.io/parsa/">
+      PĀRSA
+    </a>
+
+  </div>
+
+  <ul>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/">
+        Início
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/historico.html">
+        Histórico
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/eventos.html">
+        Eventos
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/workshop.html">
+        Workshop
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/memorando.html">
+        Memorandos
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/traducoes.html">
+        Traduções
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+
+<!-- CONTEÚDO -->
+
+<section class="page">
+
+<h1>
+Inscrições Reais em Português
+</h1>
+
+<p>
+Esta página reúne traduções para o português
+de inscrições reais aquemênidas publicadas por
+Matheus Treuk.
+</p>
+
+<hr>
+
+<h2>
+Inscrições de Ciro em Pasárgada (versão persa)
+</h2>
+
+<p>
+
+TREUK, Matheus.
+
+<em>
+As inscrições dos “primeiros” Aquemênidas?
+Tradução para o português de AmHa, AsHa,
+CMa, CMb e CMc, com comentários.
+</em>
+
+Translatio, Porto Alegre, n. 24, 2022.
+
+</p>
+
+<p>
+
+<a href="https://seer.ufrgs.br/index.php/translatio/article/view/125174"
+   target="_blank">
+
+Acessar publicação
+
+</a>
+
+</p>
+
+<hr>
+
+<h2>
+Inscrição de Dario em Behistun (versão persa)
+</h2>
+
+<p>
+
+TREUK, Matheus.
+
+<em>
+A inscrição de Behistun (c. 520 a.C.):
+tradução do texto persa antigo para o português,
+introdução crítica e comentários.
+</em>
+
+Revista de História (USP),
+n. 182, 2023.
+
+DOI:
+10.11606/issn.2316-9141.rh.2023.199429
+
+</p>
+
+<p>
+
+<a href="https://revistas.usp.br/revhistoria/article/view/199429"
+   target="_blank">
+
+Acessar publicação
+
+</a>
+
+</p>
+
+<hr>
+
+<h2>
+Inscrição de Dario em Naqsh-i Rustam (versão acadiana)
+</h2>
+
+<p>
+
+TREUK, Matheus.
+
+<em>
+Revisitando DNa/AB:
+introdução, tradução para o português
+e comentários sobre a inscrição DNa/AB
+da tumba de Dario em Naqsh-i Rustam.
+</em>
+
+Anos 90,
+v. 32,
+e2025005,
+2025.
+
+DOI:
+10.22456/1983-201X.136797
+
+</p>
+
+<p>
+
+<a href="https://www.scielo.br/j/rh/a/YbhrjB9xHrJ5qvmR4GbymdG/?lang=pt"
+   target="_blank">
+
+Link relacionado
+
+</a>
+
+</p>
+
+<hr>
+
+<h2>
+Outras Traduções e Estudos Relacionados
+</h2>
+
+<p>
+
+Além das traduções acima,
+o autor também publicou estudos relacionados
+à documentação aquemênida,
+à língua persa antiga,
+à historiografia do Império Aquemênida
+e às fontes do Oriente Próximo Antigo.
+
+</p>
+
+<ul>
+
+<li>
+
+<a href="https://sportsinbrazil.academia.edu/MatheusTreuk"
+   target="_blank">
+
+Perfil acadêmico com publicações
+
+</a>
+
+</li>
+
+<li>
+
+<a href="https://laop.fflch.usp.br/novidades"
+   target="_blank">
+
+Laboratório do Antigo Oriente Próximo (USP)
+
+</a>
+
+</li>
+
+</ul>
+
+<hr>
+
+<p>
+
+Novas traduções serão adicionadas
+à medida que forem publicadas.
+
+</p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+© Pārsa — Achaemenid Studies Group<br>
+CC-BY-NC-ND 4.0
+
+</footer>
+
+</body>
+
+</html>
+```
