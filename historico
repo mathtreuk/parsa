@@ -1,51 +1,113 @@
+```html id="k2l8qn"
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Eventos — PĀRSA</title>
+<meta charset="UTF-8">
 
-  <meta name="description" content="Eventos e encontros do PĀRSA — Grupo de Estudos Aquemênidas">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css">
+<title>
+Eventos — PĀRSA
+</title>
+
+<meta name="description"
+      content="Eventos e encontros do PĀRSA — Grupo de Estudos Aquemênidas">
+
+<link rel="stylesheet"
+      href="style.css">
+
 </head>
 
 <body>
 
+<!-- NAVBAR -->
+
 <nav class="navbar">
 
   <div class="brand">
-    PĀRSA
+
+    <a href="index.html">
+      PĀRSA
+    </a>
+
   </div>
 
   <ul>
-    <li><a href="index.html">Início</a></li>
-    <li><a href="historico.html">Histórico</a></li>
-    <li><a href="eventos.html">Eventos</a></li>
+
+    <li>
+      <a href="index.html">
+        Início
+      </a>
+    </li>
+
+    <li>
+      <a href="historico.html">
+        Histórico
+      </a>
+    </li>
+
+    <li>
+      <a href="eventos.html">
+        Eventos
+      </a>
+    </li>
+
+    <li>
+      <a href="workshop.html">
+        Workshop
+      </a>
+    </li>
+
+    <li>
+      <a href="memorando.html">
+        Memorandos
+      </a>
+    </li>
+
+    <li>
+      <a href="traducoes.html">
+        Traduções
+      </a>
+    </li>
+
   </ul>
 
 </nav>
 
+<!-- CONTEÚDO -->
+
 <section class="page">
 
-<h1>Eventos e Encontros</h1>
+<h1>
+Eventos e Encontros
+</h1>
 
 <div class="timeline">
 
-<h2>2026</h2>
+<h2>
+2026
+</h2>
 
 <div class="item">
-<strong>28/05/2026 — 19h (online)</strong>
+
+<strong>
+28/05/2026 — 19h (online)
+</strong>
 
 <p>
 Encontro de Leituras.
 </p>
+
 </div>
 
 <div class="item">
-<strong>26/03/2026 — 13h10 (híbrido)</strong>
+
+<strong>
+26/03/2026 — 13h10 (híbrido)
+</strong>
 
 <p>
 Primeiro encontro do ano.
@@ -61,47 +123,71 @@ Dra. Cintia Gama-Rolland,
 curadora da coleção egiptológica do
 Musée des Confluences (Lyon, França).
 </p>
+
 </div>
 
-<h2>2025</h2>
+<h2>
+2025
+</h2>
 
 <div class="item">
-<strong>21/07/2025 — 11h (online)</strong>
+
+<strong>
+21/07/2025 — 11h (online)
+</strong>
 
 <p>
 Apresentação de Charlotte Howley (UCLA).
 </p>
+
 </div>
 
 <div class="item">
-<strong>19/05/2025 — 9h às 11h (híbrido)</strong>
+
+<strong>
+19/05/2025 — 9h às 11h (híbrido)
+</strong>
 
 <p>
 Apresentação de Caio Borges (USP).
 </p>
+
 </div>
 
 <div class="item">
-<strong>05/05/2025 — 09h30 (online)</strong>
+
+<strong>
+05/05/2025 — 09h30 (online)
+</strong>
 
 <p>
 Apresentação de Jason Silverman
 (University of Helsinki).
 </p>
+
 </div>
 
 <div class="item">
-<strong>26/03/2025 — 14h (híbrido)</strong>
+
+<strong>
+26/03/2025 — 14h (híbrido)
+</strong>
 
 <p>
 Primeiro encontro do ano.
 </p>
+
 </div>
 
-<h2>2024</h2>
+<h2>
+2024
+</h2>
 
 <div class="item">
-<strong>16/12/2024 — 15h</strong>
+
+<strong>
+16/12/2024 — 15h
+</strong>
 
 <p>
 Discussão de texto sobre Egito Aquemênida.
@@ -114,10 +200,14 @@ Encontro online e sala 21 do DH/USP.
 <p>
 Encerramento das atividades.
 </p>
+
 </div>
 
 <div class="item">
-<strong>31/10/2024 — 14h</strong>
+
+<strong>
+31/10/2024 — 14h
+</strong>
 
 <p>
 Discussão de texto de Gad Barnea.
@@ -126,10 +216,14 @@ Discussão de texto de Gad Barnea.
 <p>
 Encontro online e sala 21 do DH/USP.
 </p>
+
 </div>
 
 <div class="item">
-<strong>05/09/2024 — 14h</strong>
+
+<strong>
+05/09/2024 — 14h
+</strong>
 
 <p>
 Discussão de texto de Louis Jonker (2023)
@@ -140,10 +234,14 @@ com os textos bíblicos.
 <p>
 Encontro online e sala 21 do DH/USP.
 </p>
+
 </div>
 
 <div class="item">
-<strong>16/08/2024 — híbrido</strong>
+
+<strong>
+16/08/2024 — híbrido
+</strong>
 
 <p>
 Leitura da teoria de Lori Khatchadourian
@@ -154,10 +252,14 @@ e o Império Aquemênida.
 <p>
 Google Meets e Sala 21 do DH/USP.
 </p>
+
 </div>
 
 <div class="item">
-<strong>14/03/2024 — 10h (online)</strong>
+
+<strong>
+14/03/2024 — 10h (online)
+</strong>
 
 <p>
 “As mulheres persas na obra herodotiana
@@ -167,22 +269,32 @@ Google Meets e Sala 21 do DH/USP.
 <p>
 Apresentação de Isabela Casellato Torres.
 </p>
+
 </div>
 
 <div class="item">
-<strong>16/02/2024</strong>
+
+<strong>
+16/02/2024
+</strong>
 
 <p>
 Leitura de texto selecionado e discussão
 sobre a temática dos deportados nos
 Impérios Neobabilônico e Aquemênida.
 </p>
+
 </div>
 
-<h2>2023</h2>
+<h2>
+2023
+</h2>
 
 <div class="item">
-<strong>19/12/2023 — 9h (virtual)</strong>
+
+<strong>
+19/12/2023 — 9h (virtual)
+</strong>
 
 <p>
 Leitura de texto selecionado e discussão
@@ -193,28 +305,40 @@ no Império Aquemênida.
 <p>
 Encerramento das atividades de 2023.
 </p>
+
 </div>
 
 <div class="item">
-<strong>20/10/2023 — 9h (virtual)</strong>
+
+<strong>
+20/10/2023 — 9h (virtual)
+</strong>
 
 <p>
 Discussão da Dissertação de Mestrado
 de Santiago Reghin.
 </p>
+
 </div>
 
 <div class="item">
-<strong>18/09/2023 — 9h (virtual)</strong>
+
+<strong>
+18/09/2023 — 9h (virtual)
+</strong>
 
 <p>
 Discussão da Tese de Doutorado
 de Matheus Treuk.
 </p>
+
 </div>
 
 <div class="item">
-<strong>18/07/2023 — 18h (virtual)</strong>
+
+<strong>
+18/07/2023 — 18h (virtual)
+</strong>
 
 <p>
 Definição de diretrizes do grupo.
@@ -224,10 +348,14 @@ Definição de diretrizes do grupo.
 Elaboração da identidade visual por
 Enzo Snitovsky e Samuel Gandara.
 </p>
+
 </div>
 
 <div class="item">
-<strong>22/06/2023 — 19h (virtual)</strong>
+
+<strong>
+22/06/2023 — 19h (virtual)
+</strong>
 
 <p>
 Definição inicial de diretrizes.
@@ -238,15 +366,23 @@ Matheus Treuk, Samuel Gandara,
 Santiago Reghin, Enzo Snitovsky
 e Anselmo Chagas.
 </p>
+
 </div>
 
 </div>
 
 </section>
 
+<!-- FOOTER -->
+
 <footer>
-© Pārsa — Achaemenid Studies Group
+
+© Pārsa — Achaemenid Studies Group<br>
+CC-BY-NC-ND 4.0
+
 </footer>
 
 </body>
+
 </html>
+```
