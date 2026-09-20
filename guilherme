@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>
+Guilherme Mongeló (UFS) — PĀRSA
+</title>
+
+<meta name="description"
+      content="Palestra do Prof. Dr. Guilherme Mongeló no PĀRSA — Achaemenid Studies Group.">
+
+<link rel="stylesheet"
+      href="style.css">
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com"
+      crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+  <div class="brand">
+
+    <a href="https://mathtreuk.github.io/parsa/">
+      PĀRSA
+    </a>
+
+  </div>
+
+  <ul>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/">
+        Início
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/historico.html">
+        Histórico
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/eventos.html">
+        Eventos
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/workshop.html">
+        Workshop
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/memorando.html">
+        Memorandos
+      </a>
+    </li>
+
+    <li>
+      <a href="https://mathtreuk.github.io/parsa/traducoes.html">
+        Traduções
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+
+<!-- HERO -->
+
+<header class="hero small-hero">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <p class="hero-small">
+      PĀRSA — Achaemenid Studies Group
+    </p>
+
+    <h1>
+      Prof. Dr. Guilherme Mongeló
+    </h1>
+
+    <h2>
+      Conferência
+    </h2>
+
+    <div class="hero-line"></div>
+
+    <p class="hero-description">
+
+      Concepções Marxistas sobre o Mundo Antigo
+
+    </p>
+
+  </div>
+
+</header>
+
+<!-- CONTEÚDO -->
+
+<section class="page">
+
+  <div class="intro-grid">
+
+    <div class="intro-text">
+
+      <span class="section-tag">
+        PALESTRA
+      </span>
+
+      <h3>
+        24 de novembro de 2026
+      </h3>
+
+      <p>
+
+        O PĀRSA — Achaemenid Studies Group
+        receberá o Prof. Dr. Guilherme Mongeló,
+        da Universidade Federal de Sergipe (UFS),
+        para uma conferência dedicada às
+        concepções marxistas sobre o Mundo Antigo.
+
+      </p>
+
+      <p>
+
+        A palestra propõe uma reflexão sobre
+        as interpretações do Mundo Antigo
+        a partir de perspectivas marxistas,
+        contribuindo para o debate sobre
+        a historiografia e os estudos das
+        sociedades antigas.
+
+      </p>
+
+      <p>
+
+        <strong>
+          Palestrante:
+        </strong>
+
+        Prof. Dr. Guilherme Mongeló (UFS).
+
+        <br><br>
+
+        <strong>
+          Data:
+        </strong>
+
+        24 de novembro de 2026.
+
+        <br><br>
+
+        <strong>
+          Horário:
+        </strong>
+
+        das 13h20 às 15h10
+        (horário de Brasília).
+
+        <br><br>
+
+        <strong>
+          Modalidade:
+        </strong>
+
+        online.
+
+      </p>
+
+      <p>
+
+        <strong>
+          Título da conferência:
+        </strong>
+
+        <br><br>
+
+        <em>
+          Concepções Marxistas sobre o Mundo Antigo.
+        </em>
+
+      </p>
+
+      <!-- LINK DE INSCRIÇÃO -->
+
+      <!--
+      <p>
+
+        <a href="COLE_AQUI_O_LINK_DE_INSCRICAO"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="primary-btn">
+
+          Inscrição para ouvintes
+
+        </a>
+
+      </p>
+      -->
+
+    </div>
+
+    <div class="intro-image poster-anita">
+
+      <a href="gaucho.jpg"
+         target="_blank">
+
+        <img src="gaucho.jpg"
+             alt="Cartaz da palestra Concepções Marxistas sobre o Mundo Antigo">
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <p>
+    © Pārsa — Achaemenid Studies Group
+  </p>
+
+  <p>
+    CC-BY-NC-ND 4.0
+  </p>
+
+</footer>
+
+</body>
+
+</html>
