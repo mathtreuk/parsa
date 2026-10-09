@@ -1,280 +1,324 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Relatório do I Workshop Materialidades Antigas: Entre História e Arqueologia, realizado na UERJ em setembro de 2026.">
+<title>Relatório | I Workshop Materialidades Antigas | PĀRSA</title>
+<link rel="stylesheet" href="style.css">
 
-  <meta name="description" content="Relatório do I Workshop Materialidades Antigas: Entre História e Arqueologia, realizado na UERJ em setembro de 2026.">
+<style>
+.report {
+  max-width: 950px;
+  margin: 0 auto;
+}
 
-  <title>I Workshop Materialidades Antigas | UERJ</title>
+.report h1,
+.report h2 {
+  line-height: 1.3;
+}
 
-  <style>
-    :root {
-      --ink: #252a32;
-      --muted: #5e6875;
-      --accent: #8d3e2f;
-      --accent-dark: #62291f;
-      --paper: #fffefa;
-      --wash: #f3f0e9;
-      --line: #ded9ce;
-      --max: 900px;
-    }
+.report .report-subtitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-    * {
-      box-sizing: border-box;
-    }
+.report .report-meta {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-    html {
-      scroll-behavior: smooth;
-    }
+.report p {
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 1.2rem;
+}
 
-    body {
-      margin: 0;
-      background: var(--paper);
-      color: var(--ink);
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.75;
-    }
+.report figure {
+  margin: 2rem auto;
+  text-align: center;
+}
 
-    .hero {
-      padding: clamp(3rem, 8vw, 6.5rem) 1.25rem 3.5rem;
-      color: #fff;
-      background: linear-gradient(
-        135deg,
-        #282d34,
-        #4a3029 72%,
-        #8d3e2f
-      );
-      border-bottom: 6px solid var(--accent);
-    }
+.report figure img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  max-height: 600px;
+  height: auto;
+  margin: 0 auto;
+}
 
-    .hero-inner,
-    main,
-    footer {
-      width: min(var(--max), calc(100% - 2rem));
-      margin: 0 auto;
-    }
+.report figcaption {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-style: italic;
+}
 
-    .eyebrow {
-      margin: 0 0 .9rem;
-      font: 700 .78rem/1.4 Arial, sans-serif;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-      color: #ead3c8;
-    }
+.report .section-heading {
+  margin-top: 2.5rem;
+}
 
-    h1 {
-      max-width: 780px;
-      margin: 0;
-      font-size: clamp(2.3rem, 6vw, 4.5rem);
-      line-height: 1.08;
-    }
+@media (max-width: 600px) {
+  .report p {
+    text-align: left;
+  }
 
-    .subtitle {
-      margin: 1.2rem 0 0;
-      font: 1rem/1.6 Arial, sans-serif;
-      color: #f2e9e4;
-    }
-
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: .6rem 1.3rem;
-      margin-top: 1.6rem;
-      font: .9rem/1.5 Arial, sans-serif;
-    }
-
-    .meta span {
-      border-left: 2px solid #d7a99a;
-      padding-left: .65rem;
-    }
-
-    main {
-      padding: 2.5rem 0 4rem;
-    }
-
-    article p {
-      margin: 0 0 1.2rem;
-      text-align: justify;
-    }
-
-    article p:first-of-type {
-      font-size: 1.13rem;
-    }
-
-    figure {
-      margin: 2rem 0 2.5rem;
-    }
-
-    figure img {
-      display: block;
-      width: 100%;
-      height: auto;
-      max-height: 560px;
-      object-fit: contain;
-      background: var(--wash);
-      border: 1px solid var(--line);
-    }
-
-    figcaption {
-      padding: .65rem .2rem 0;
-      color: var(--muted);
-      font: .86rem/1.55 Arial, sans-serif;
-    }
-
-    .note {
-      margin: 2.5rem 0;
-      padding: 1.2rem 1.4rem;
-      background: var(--wash);
-      border-left: 4px solid var(--accent);
-      font: .92rem/1.6 Arial, sans-serif;
-      color: var(--muted);
-    }
-
-    footer {
-      border-top: 1px solid var(--line);
-      padding: 1.4rem 0 2.5rem;
-      color: var(--muted);
-      font: .85rem/1.6 Arial, sans-serif;
-    }
-
-    @media (max-width: 600px) {
-      .hero {
-        padding-top: 3rem;
-      }
-
-      main {
-        padding-top: 1.7rem;
-      }
-
-      body {
-        line-height: 1.68;
-      }
-
-      article p {
-        text-align: left;
-      }
-    }
-
-    @media print {
-      .hero {
-        background: #fff;
-        color: var(--ink);
-        border-bottom: 2px solid var(--accent);
-      }
-
-      .subtitle,
-      .eyebrow {
-        color: var(--ink);
-      }
-
-      main {
-        width: 100%;
-      }
-    }
-  </style>
+  .report figure img {
+    max-height: 450px;
+  }
+}
+</style>
 </head>
 
 <body>
 
-  <header class="hero">
-    <div class="hero-inner">
+<nav class="navbar">
+<div class="brand">
+<a href="index.html">PĀRSA</a>
+</div>
 
-      <p class="eyebrow">
-        Universidade do Estado do Rio de Janeiro · UERJ
-      </p>
+<ul>
+<li><a href="index.html">Início / Home</a></li>
+<li><a href="historico.html">Histórico / History</a></li>
+<li><a href="eventos.html">Eventos / Events</a></li>
+<li><a href="workshop.html">Workshop</a></li>
+<li><a href="memorando.html">Memorandos / Memoranda</a></li>
+<li><a href="traducoes.html">Traduções / Translations</a></li>
+</ul>
+</nav>
 
-      <h1>I Workshop Materialidades Antigas</h1>
+<section class="page report">
 
-      <p class="subtitle">
-        Entre História e Arqueologia
-      </p>
+<h1>I Workshop Materialidades Antigas</h1>
 
-      <div class="meta">
-        <span>SIEXT 8466/2026</span>
-        <span>14 a 17 de setembro de 2026</span>
-        <span>Universidade do Estado do Rio de Janeiro</span>
-      </div>
+<h2 class="report-subtitle">
+Entre História e Arqueologia
+</h2>
 
-    </div>
-  </header>
+<p class="report-meta">
+<strong>SIEXT 8466/2026</strong><br>
+14 a 17 de setembro de 2026<br>
+Universidade do Estado do Rio de Janeiro (UERJ)
+</p>
 
-  <main>
-    <article>
+<p>
+Em setembro de 2026, a Universidade do Estado do Rio de Janeiro sediou o <strong>I Workshop Materialidades Antigas: Entre História e Arqueologia</strong>, registrado sob o n.º 8466/2026 na Pró-Reitoria de Extensão e Cultura (PR3) da UERJ. O evento reuniu pesquisadores, docentes e estudantes em torno de diferentes abordagens da cultura material, promovendo o diálogo entre História Antiga, Arqueologia e áreas afins.
+</p>
 
-      <p>Em setembro, a UERJ sediou o evento “Workshop Materialidades Antigas: Entre História e Arqueologia”, cadastrado sob o n.º 8466/2026 na Pró-Reitoria de Extensão e Cultura (PR3) da Universidade do Estado do Rio de Janeiro.</p>
+<p>
+Organizado pelo Núcleo de Estudos da Antiguidade (NEA), em particular pela Professora Maria Regina Candido (DH/IFCH/UERJ) e pelo Professor Matheus Treuk (DARQ/IFCH/UERJ), o workshop ocorreu entre os dias 14 e 17 de setembro, na sala 9024-F da universidade. A programação incluiu conferências, apresentações de trabalhos acadêmicos e debates. Paralelamente, foi realizado o Minicurso de Extensão SIEXT 2709/2026, intitulado <em>“Arte? Artefato? O método de Edmund Burke Feldman na comunicação da Arqueologia da Ásia Ocidental”</em>, ministrado pela arte-educadora Kayssa Mavrides, mestra pela Sapienza Università di Roma. O minicurso teve atividades entre os dias 14 e 18 de setembro.
+</p>
 
-      <p>Organizado pelo Núcleo de Estudos da Antiguidade, e, em particular, pela Professora Maria Regina Candido (DH/IFCH/UERJ) e pelo Professor Matheus Treuk (DARQ/IFCH/UERJ), o Workshop Materialidades Antigas teve início no dia 14 de setembro de 2026, uma segunda-feira, na Universidade do Estado do Rio de Janeiro, na sala 9024-F, encerrando-se no dia 17 de setembro de 2026. O Minicurso de Extensão (Siext 2709/2026) “Arte? Artefato? O método de Edmund Burke Feldman na comunicação da Arqueologia da Ásia Ocidental”, contando com a arte-educadora e Ms. Kayssa Mavrides, por sua vez, teve início também no dia 14, mas foi finalizado no dia 18 de setembro, uma sexta-feira.</p>
+<h2 class="section-heading">14 de setembro — Abertura e primeira conferência</h2>
 
-      <p>No dia 14 de setembro, no período da manhã, às 09h00, a arte-educadora Kayssa Mavrides, Ms. pela Sapienza Università di Roma, ministrou a primeira aula do minicurso de extensão, introduzindo os participantes à aplicação das quatro etapas de leitura crítica de imagem propostas por Edmund Burke Feldman: descrição, organização, análise/interpretação e avaliação. A Ms. Kayssa Mavrides explorou também estudos de caso de aplicação da metodologia de Feldman à divulgação do conhecimento arqueológico.</p>
+<p>
+Na manhã de 14 de setembro, às 9h, Kayssa Mavrides ministrou a primeira aula do minicurso de extensão. A atividade apresentou aos participantes as quatro etapas da leitura crítica de imagens propostas por Edmund Burke Feldman: descrição, organização, análise e interpretação, e avaliação. Foram também explorados estudos de caso sobre a aplicação dessa metodologia à divulgação do conhecimento arqueológico.
+</p>
 
-      <figure>
-        <img src="div1.jpg" alt="Matheus Treuk e Kayssa Mavrides em aula do dia 15 de setembro de 2026" loading="lazy">
-        <figcaption>Figura 1: Matheus Treuk e Kayssa Mavrides em aula do dia 15 de setembro de 2026, terça-feira.</figcaption>
-      </figure>
+<figure>
+<img src="div1.jpg"
+     alt="Matheus Treuk e Kayssa Mavrides durante as atividades do minicurso em 15 de setembro de 2026"
+     loading="lazy">
+<figcaption>
+Figura 1 — Matheus Treuk e Kayssa Mavrides em aula do dia 15 de setembro de 2026, terça-feira.
+</figcaption>
+</figure>
 
-      <p>Após o intervalo do almoço, os participantes foram recebidos para a conferência de abertura, “Sonho de um Mundo Antes de Nós”, oferecida pelo presidente da comissão organizadora, Matheus Treuk, como estímulo aos debates e diálogos que eram esperados naquela ocasião. Ato contínuo, deu-se início à fala do professor convidado Davide Nadali (Sapienza Università di Roma), intitulada “Digging in Ancient Western Asia in Post-Conflict Time. Problems, Challenges and Opportunities”. O professor Nadali mostrou como sua equipe tem trabalhado para preservar e restaurar sítios arqueológicos destruídos pela Guerra Civil da Síria na região de Ebla (Tell Mardikh), expondo a importância da arqueologia como instrumento de construção e conservação de identidades e de memória cultural em cenários de conflito. Após uma rodada de perguntas e discussões, o evento foi encerrado no final da tarde, conforme previsto. De manhã, antes do início do minicurso, e à tarde, pouco após o almoço, foi servido o tradicional coffee break. Os participantes também receberam ecobags com a identidade visual do evento, crachás, cadernos, uma pasta do NEA, caneta e blocos de anotações.</p>
+<p>
+No período da tarde, ocorreu a conferência de abertura, intitulada <em>“Sonho de um Mundo Antes de Nós”</em>, apresentada por Matheus Treuk, presidente da comissão organizadora. Em seguida, o professor convidado Davide Nadali, da Sapienza Università di Roma, proferiu a conferência <em>“Digging in Ancient Western Asia in Post-Conflict Time. Problems, Challenges and Opportunities”</em>.
+</p>
 
-      <figure>
-        <img src="div2.jpg" alt="Fala do Professor Davide Nadali em 14 de setembro de 2026" loading="lazy">
-        <figcaption>Figura 2: Fala do Professor Davide Nadali de 14 de setembro de 2026.</figcaption>
-      </figure>
+<p>
+Em sua apresentação, Nadali abordou o trabalho de sua equipe na preservação e restauração de sítios arqueológicos afetados pela Guerra Civil Síria, especialmente na região de Ebla (Tell Mardikh). A conferência destacou a importância da Arqueologia para a preservação da memória cultural e para a compreensão dos processos de construção e conservação de identidades em contextos de conflito. A atividade foi seguida por perguntas e discussões com os participantes.
+</p>
 
-      <figure>
-        <img src="div3.jpg" alt="Materiais distribuídos aos participantes do evento" loading="lazy">
-        <figcaption>Figura 3: material do evento.</figcaption>
-      </figure>
+<p>
+Ao longo do dia, foram oferecidos coffee breaks aos participantes. Também foram distribuídos materiais de apoio e itens com a identidade visual do evento, incluindo ecobags, crachás, cadernos, uma pasta do NEA, canetas e blocos de anotações.
+</p>
 
-      <p>No dia 15 de setembro, uma terça-feira, período da manhã, a Ms. Kayssa e o Prof. Matheus Treuk retomaram as atividades do minicurso e apresentaram, mais uma vez, estudos de caso, incluindo a proposta pedagógica pensada para o ensino de arqueologia da Antiguidade e recepção a partir do Salão Assyrio do Theatro Municipal do Rio de Janeiro. Às 14hs, teve início a fala da Prof. Dr. Maria Regina Candido, da Universidade do Estado do Rio de Janeiro, sobre a Materialidade do Ódio, a partir dos katadesmoi, as lâminas de maldição feitas de chumbo e encontradas no cemitério do Kerameikos, Atenas. Maria Regina Candido proporcionou reflexões fundamentais sobre a apreensão das emoções a partir do estudo da cultura material, as percepções eurocêntricas sobre as práticas mágicas na Antiguidade Clássica, e as estruturas sociais relacionadas à aplicação de feitiços pelos katadesmoi a partir de documentações históricas e arqueológicas. Após uma rodada de perguntas e discussões muito produtivas, o evento foi encerrado no final da tarde, conforme previsto.</p>
+<figure>
+<img src="div2.jpg"
+     alt="Conferência do professor Davide Nadali em 14 de setembro de 2026"
+     loading="lazy">
+<figcaption>
+Figura 2 — Fala do professor Davide Nadali em 14 de setembro de 2026.
+</figcaption>
+</figure>
 
-      <figure>
-        <img src="div4.jpg" alt="Professora Maria Regina Candido com os convidados Omar N'Shea, Davide Nadali e Matheus Treuk" loading="lazy">
-        <figcaption>Figura 4: Professora Maria Regina Candido, conferencista do segundo dia do evento, recebe Omar N'Shea, Davide Nadali e Matheus Treuk em seu escritório.</figcaption>
-      </figure>
+<figure>
+<img src="div3.jpg"
+     alt="Materiais distribuídos aos participantes do workshop"
+     loading="lazy">
+<figcaption>
+Figura 3 — Materiais distribuídos aos participantes do evento.
+</figcaption>
+</figure>
 
-      <p>No dia 16 de setembro, uma quarta-feira, período da manhã, a Ms. Kayssa Mavrides avaliou a apresentação do método de Feldman pelos alunos que participavam do minicurso. À tarde, a partir das 14hs, falou o professor Omar N’Shea, da L’Università ta’ Malta (Valletta), abordando a temática Bodies and Matter: The Materiality of Death in Neolithic Malta. O professor N’Shea falou sobre desdobramentos recentes de escavações realizadas na Ilha de Gozo, em Malta, além de explorar a história da categoria de “vênus” atribuída às estatuetas femininas do Neolítico Maltês. Ele discutiu a correlação entre achados paleoantropológicos da época e sua contradição com as imagens idealizadas da arte escultórica, entre outros aspectos. Após uma rodada de perguntas e discussões, o evento foi encerrado no final da tarde, conforme previsto.</p>
+<h2 class="section-heading">15 de setembro — Cultura material, emoções e práticas mágicas</h2>
 
-      <figure>
-        <img src="div5.jpg" alt="Professor Omar N'Shea apresenta sua conferência sobre corpo e matéria" loading="lazy">
-        <figcaption>Figura 5: Professor Omar N'Shea apresenta sua fala no terceiro dia de conferência, tratando do tema "corpo e matéria".</figcaption>
-      </figure>
+<p>
+Na manhã de 15 de setembro, Kayssa Mavrides e Matheus Treuk deram continuidade ao minicurso, apresentando novos estudos de caso. Entre os temas abordados esteve uma proposta pedagógica voltada ao ensino de Arqueologia da Antiguidade e à recepção da cultura antiga, tomando como referência o Salão Assyrio do Theatro Municipal do Rio de Janeiro.
+</p>
 
-      <figure>
-        <img src="div6.jpg" alt="Último dia de aula ministrada por Kayssa Mavrides" loading="lazy">
-        <figcaption>Figura 6: último dia de aula ministrada pela Ms. Kayssa Mavrides.</figcaption>
-      </figure>
+<p>
+Às 14h, a Professora Maria Regina Candido, da UERJ, apresentou uma conferência sobre a materialidade do ódio, a partir dos <em>katadesmoi</em>: lâminas de maldição confeccionadas em chumbo e encontradas no cemitério do Kerameikos, em Atenas.
+</p>
 
-      <p>No dia 17 de setembro, uma quinta-feira, período da manhã, a Ms. Kayssa Mavrides, com o apoio da equipe do Museu Nacional do Rio de Janeiro (UFRJ), em particular a pedagoga Sheila Nicolas Villas Boas, fez uma visita à exibição permanente daquela instituição, reestruturada após o incêndio de 2018. As práticas pedagógicas do museu, sua expografia, as formas de introdução à arqueologia, história natural e arte, foram tópicos de reflexão no âmbito do minicurso ministrado.</p>
+<p>
+A apresentação discutiu as possibilidades de investigação das emoções por meio da cultura material, as interpretações eurocêntricas das práticas mágicas na Antiguidade Clássica e as estruturas sociais relacionadas ao uso dos <em>katadesmoi</em>. A análise articulou documentação histórica e arqueológica para refletir sobre as relações entre objetos, práticas sociais e crenças. A conferência foi seguida por perguntas e debates.
+</p>
 
-      <figure>
-        <img src="div7.jpg" alt="Visita ao Museu Nacional do Rio de Janeiro com a equipe educativa" loading="lazy">
-        <figcaption>Figura 7: Visita ao Museu Nacional do Rio de Janeiro com a equipe do educativo do Museu Nacional.</figcaption>
-      </figure>
+<figure>
+<img src="div4.jpg"
+     alt="Maria Regina Candido com Omar N'Shea, Davide Nadali e Matheus Treuk"
+     loading="lazy">
+<figcaption>
+Figura 4 — A professora Maria Regina Candido, conferencista do segundo dia, recebe Omar N'Shea, Davide Nadali e Matheus Treuk em seu escritório.
+</figcaption>
+</figure>
 
-      <p>No período das 14h às 16h, foram realizadas oito apresentações de trabalhos acadêmicos, com duração de 15 minutos cada, contemplando diferentes abordagens e objetos de estudo relacionados à História Antiga, à Arqueologia e à cultura material. A programação teve início com a apresentação de Junio Cesar Rodrigues Lima (UERJ), intitulada “Quando as pedras falam: uma proposta metodológica para interpretação histórica da cultura material a partir de Cesareia Marítima”. Em seguida, Sofia Amélia Rego D'Andrea (UFJF) apresentou o trabalho “A história sociocultural do mitreu de Vercovicium a partir dos altares ao Mitra”. Na sequência, Thiago Moreira de Oliveira Marcelino (UFJF) apresentou “Eu sou Mesha, filho de Kamos, rei de Moab: uma análise sobre a revolta moabita a partir da Estela de Mesha e da Bíblia Hebraica”. Jerrison Patu de Melo Alves (UERJ), por sua vez, discutiu “A relação entre a Pérsia e Atenas nos séc. VI e V AEC: a partir da antropologia econômica de Karl Polanyi”, propondo uma interpretação das relações entre os dois contextos políticos a partir das contribuições teóricas da antropologia econômica. A quinta apresentação, de Flavio Gomes Figueira Camacho (UERJ), intitulada “As Materialidades da Alimentação Medieval”, voltou-se ao estudo da alimentação na Idade Média. Posteriormente, Maria Eduarda de Almeida Vaz (UFRJ) apresentou “Imortalidade em fragmentos: a agência apotropaica dos ‘tijolos mágicos’ egípcios”. Dando continuidade à programação, Matheus da Silva Carmo (UFJF) apresentou “Os grafites de Khirbet Beit Lei e a materialidade do culto a YHWH”. Por fim, Amanda Müller Guadiz (Unicamp) encerrou a sessão com o trabalho “Animais da alteridade: representações de camelídeos em arte Aquemênida sob uma perspectiva ecocrítica”.</p>
+<h2 class="section-heading">16 de setembro — Corpos, matéria e morte</h2>
 
-      <figure>
-        <img src="div8.jpg" alt="Pesquisadores que realizaram comunicações no último dia da conferência" loading="lazy">
-        <figcaption>Figura 8: foto com pesquisadores que realizaram as comunicações no último dia da conferência.</figcaption>
-      </figure>
+<p>
+Na manhã de 16 de setembro, Kayssa Mavrides avaliou as apresentações dos participantes do minicurso, nas quais foi aplicado o método de Feldman. A atividade permitiu retomar os procedimentos de leitura crítica de imagens e suas possibilidades de utilização na comunicação do conhecimento arqueológico.
+</p>
 
-      <p>Ao longo da sessão, foram apresentados estudos que mobilizaram diferentes fontes, metodologias e perspectivas teóricas, incluindo a análise de inscrições, monumentos, objetos arqueológicos, representações artísticas e práticas alimentares. A diversidade temática evidenciou as múltiplas possibilidades de investigação da Antiguidade e de outros períodos históricos por meio da cultura material e de suas relações com os contextos sociais, políticos, econômicos e religiosos. Uma breve sessão de debates se sucedeu, com o encerramento formal do workshop e agradecimento aos participantes.</p>
+<p>
+À tarde, a partir das 14h, o professor Omar N’Shea, da L’Università ta’ Malta, em Valletta, apresentou a conferência <em>“Bodies and Matter: The Materiality of Death in Neolithic Malta”</em>.
+</p>
 
-      <p>No dia 18 de setembro, sexta-feira, por fim, foi realizada uma visita ao Museu de Arqueologia e Etnologia de Nova Iguaçu, MAE-NI. O educativo do Museu nos recebeu e apresentou a coleção arqueológica, que serviu de referencial para os exercícios no âmbito do minicurso. Além disso, foram feitas visitas aos sítios arqueológicos locais, guiadas pelos arqueólogos responsáveis pelas escavações e preservação do patrimônio histórico e cultural de Nova Iguaçu, com discussões sobre subalternidades, técnicas de escavação e arqueologia colaborativa.</p>
+<p>
+A apresentação abordou desdobramentos recentes das escavações na ilha de Gozo, em Malta, e examinou a história da categoria “vênus”, empregada para designar estatuetas femininas do Neolítico maltês. N’Shea também discutiu as relações entre os achados paleoantropológicos e as representações idealizadas do corpo na arte escultórica, explorando questões relacionadas à materialidade, à representação e à morte. A conferência foi seguida por perguntas e discussões.
+</p>
 
-      <p>O evento, focado em Arqueologia e Antiguidade, teve inscrições limitadas a 40 participantes presenciais. A participação foi de média a alta, com maior número de ouvintes (remotos e presenciais) na quinta-feira, dia 17/09. O minicurso, apenas em modalidade presencial, teve oito participantes consistentes com presença mínima de 75%. As conferências e falas tiveram um público variável: entre 10 a 20 participantes presenciais, e 10 a 20 participantes virtuais, totalizando cerca de trinta a quarenta participantes nas duas modalidades ao longo de todos os dias. Cinco trabalhos resultaram das atividades do minicurso com a Ms. Kayssa Mavrides, todos aplicando o método de Feldman a artefatos escolhidos por participantes da disciplina. No dia 19, um sábado, o Professor Davide Nadali juntou-se aos organizadores para assistir à ópera Il Campanello, de Donizetti, no Salão Assyrio do Theatro Municipal do Rio de Janeiro, ao qual agradecemos pela cortesia. Graças a tal evento, foi possível divulgar a existência desse espaço único para os colegas pesquisadores em assiriologia de todo o mundo.</p>
+<figure>
+<img src="div5.jpg"
+     alt="Omar N'Shea apresenta sua conferência sobre corpo e matéria"
+     loading="lazy">
+<figcaption>
+Figura 5 — O professor Omar N'Shea apresenta sua conferência sobre corpo e matéria no terceiro dia do evento.
+</figcaption>
+</figure>
 
-      <p>O sucesso do evento foi medido, entre outras coisas, pelas parcerias propostas junto a instituições estrangeiras, o aperfeiçoamento do conhecimento dos alunos de graduação e pós-graduação, a aproximação de pesquisadores de todo o Brasil e a troca de ideias e argumentos plurais. É importante salientar que o evento foi totalmente gratuito para todos os participantes, de forma que o transporte, as ecobags, o coffee break e os materiais de apoio não tiveram qualquer ônus para os participantes, o que foi particularmente importante para democratizar o acesso ao conhecimento. Graças a essa experiência bem-sucedida, será proposta uma nova edição do Workshop nos próximos anos. Agradecemos a todos os envolvidos, em particular os membros da comissão organizadora, os conferencistas, comunicadores, professores convidados e participantes por esse estrondoso sucesso!</p>
+<figure>
+<img src="div6.jpg"
+     alt="Último dia de aula ministrada por Kayssa Mavrides"
+     loading="lazy">
+<figcaption>
+Figura 6 — Último dia de aula ministrada por Kayssa Mavrides no âmbito do minicurso.
+</figcaption>
+</figure>
 
-    </article>
-  </main>
+<h2 class="section-heading">17 de setembro — Museu, comunicações acadêmicas e encerramento</h2>
 
-  <footer>
-    <p>
-      I Workshop Materialidades Antigas · SIEXT 8466/2026 ·
-      Universidade do Estado do Rio de Janeiro.
-    </p>
-  </footer>
+<p>
+Na manhã de 17 de setembro, Kayssa Mavrides, com o apoio da equipe do Museu Nacional do Rio de Janeiro (UFRJ), em particular da pedagoga Sheila Nicolas Villas Boas, visitou a exposição permanente da instituição, reestruturada após o incêndio de 2018. A atividade integrou a programação do minicurso e proporcionou reflexões sobre práticas pedagógicas em museus, expografia e formas de introdução à Arqueologia, à História Natural e à arte.
+</p>
+
+<figure>
+<img src="div7.jpg"
+     alt="Visita ao Museu Nacional do Rio de Janeiro com a equipe educativa"
+     loading="lazy">
+<figcaption>
+Figura 7 — Visita ao Museu Nacional do Rio de Janeiro com a equipe educativa da instituição.
+</figcaption>
+</figure>
+
+<p>
+No período da tarde, entre 14h e 16h, foram realizadas oito comunicações acadêmicas, cada uma com duração de 15 minutos. Os trabalhos contemplaram diferentes abordagens e objetos de estudo relacionados à História Antiga, à Arqueologia e à cultura material.
+</p>
+
+<p>
+Junio Cesar Rodrigues Lima (UERJ) abriu a sessão com <em>“Quando as pedras falam: uma proposta metodológica para interpretação histórica da cultura material a partir de Cesareia Marítima”</em>. Em seguida, Sofia Amélia Rego D'Andrea (UFJF) apresentou <em>“A história sociocultural do mitreu de Vercovicium a partir dos altares ao Mitra”</em>.
+</p>
+
+<p>
+Na sequência, Thiago Moreira de Oliveira Marcelino (UFJF) apresentou <em>“Eu sou Mesha, filho de Kamos, rei de Moab: uma análise sobre a revolta moabita a partir da Estela de Mesha e da Bíblia Hebraica”</em>. Jerrison Patu de Melo Alves (UERJ) discutiu <em>“A relação entre a Pérsia e Atenas nos séc. VI e V AEC: a partir da antropologia econômica de Karl Polanyi”</em>, propondo uma interpretação das relações entre os dois contextos políticos a partir das contribuições da antropologia econômica.
+</p>
+
+<p>
+A quinta comunicação, de Flavio Gomes Figueira Camacho (UERJ), intitulada <em>“As Materialidades da Alimentação Medieval”</em>, abordou o estudo da alimentação na Idade Média. Posteriormente, Maria Eduarda de Almeida Vaz (UFRJ) apresentou <em>“Imortalidade em fragmentos: a agência apotropaica dos ‘tijolos mágicos’ egípcios”</em>.
+</p>
+
+<p>
+Matheus da Silva Carmo (UFJF) deu continuidade à sessão com <em>“Os grafites de Khirbet Beit Lei e a materialidade do culto a YHWH”</em>. Por fim, Amanda Müller Guadiz (Unicamp) encerrou as apresentações com <em>“Animais da alteridade: representações de camelídeos em arte Aquemênida sob uma perspectiva ecocrítica”</em>.
+</p>
+
+<figure>
+<img src="div8.jpg"
+     alt="Pesquisadores responsáveis pelas comunicações acadêmicas do último dia do workshop"
+     loading="lazy">
+<figcaption>
+Figura 8 — Pesquisadores que realizaram comunicações no último dia do workshop.
+</figcaption>
+</figure>
+
+<p>
+As comunicações mobilizaram fontes, metodologias e perspectivas teóricas variadas, incluindo inscrições, monumentos, objetos arqueológicos, representações artísticas e práticas alimentares. A diversidade dos trabalhos evidenciou as possibilidades de investigação da Antiguidade e de outros períodos históricos por meio da cultura material, considerada em suas relações com contextos sociais, políticos, econômicos e religiosos.
+</p>
+
+<p>
+Após uma sessão de debates, foi realizado o encerramento formal do workshop, com agradecimentos aos participantes, conferencistas e comunicadores.
+</p>
+
+<h2 class="section-heading">18 de setembro — Atividades no MAE-NI</h2>
+
+<p>
+Em 18 de setembro, sexta-feira, foi realizada uma visita ao Museu de Arqueologia e Etnologia de Nova Iguaçu (MAE-NI), como atividade complementar do minicurso. A equipe educativa do museu apresentou a coleção arqueológica, que serviu de referência para os exercícios desenvolvidos ao longo da formação.
+</p>
+
+<p>
+A programação incluiu também visitas a sítios arqueológicos locais, guiadas pelos arqueólogos responsáveis pelas escavações e pela preservação do patrimônio histórico e cultural de Nova Iguaçu. Durante as atividades, foram discutidas questões relacionadas às subalternidades, às técnicas de escavação e à Arqueologia colaborativa.
+</p>
+
+<h2 class="section-heading">Participação e resultados</h2>
+
+<p>
+O workshop teve inscrições limitadas a 40 participantes presenciais. A participação variou ao longo da programação, com maior número de ouvintes, presenciais e remotos, na quinta-feira, 17 de setembro. As conferências e demais apresentações registraram públicos estimados entre 10 e 20 participantes presenciais e entre 10 e 20 participantes virtuais. Esses números correspondem às estimativas registradas para as atividades e não devem ser interpretados como uma contagem de participantes únicos ao longo de todo o evento.
+</p>
+
+<p>
+O minicurso, realizado exclusivamente na modalidade presencial, contou com oito participantes que cumpriram a exigência de frequência mínima de 75%. Como resultado das atividades conduzidas por Kayssa Mavrides, foram produzidos cinco trabalhos nos quais os participantes aplicaram o método de Feldman a artefatos de sua escolha.
+</p>
+
+<p>
+A programação também favoreceu o contato entre pesquisadores de diferentes instituições brasileiras e estrangeiras, a discussão de abordagens metodológicas e a aproximação entre pesquisa acadêmica, ensino e divulgação do conhecimento arqueológico. As atividades realizadas em museus e sítios arqueológicos ampliaram as possibilidades de reflexão sobre a cultura material e suas formas de interpretação e comunicação.
+</p>
+
+<p>
+No dia 19 de setembro, sábado, o professor Davide Nadali juntou-se aos organizadores para assistir à ópera <em>Il Campanello</em>, de Donizetti, no Salão Assyrio do Theatro Municipal do Rio de Janeiro, cuja cortesia agradecemos. A ocasião também permitiu apresentar esse espaço aos pesquisadores convidados, contribuindo para divulgar sua relevância para os estudos de assiriologia.
+</p>
+
+<h2 class="section-heading">Considerações finais</h2>
+
+<p>
+O I Workshop Materialidades Antigas proporcionou um espaço de intercâmbio acadêmico dedicado à investigação da cultura material e às relações entre História e Arqueologia. A diversidade das conferências e comunicações, a realização do minicurso e as visitas a instituições museológicas e sítios arqueológicos contribuíram para aproximar pesquisadores, estudantes e profissionais de diferentes áreas.
+</p>
+
+<p>
+A gratuidade de todas as atividades foi um aspecto importante da iniciativa. Os custos de transporte, coffee breaks, ecobags e materiais de apoio não foram repassados aos participantes, favorecendo o acesso às atividades acadêmicas. As discussões realizadas, os trabalhos produzidos no minicurso e as possibilidades de cooperação entre instituições constituem resultados relevantes desta primeira edição.
+</p>
+
+<p>
+A organização agradece aos membros da comissão organizadora, aos conferencistas, aos comunicadores, aos professores convidados, às equipes das instituições parceiras e a todos os participantes que contribuíram para a realização do evento. Considerando a experiência desta edição, pretende-se propor uma nova edição do Workshop Materialidades Antigas nos próximos anos.
+</p>
+
+<hr>
+
+<p style="text-align:center;">
+<strong>Organização</strong><br>
+Núcleo de Estudos da Antiguidade (NEA/UERJ)<br>
+Universidade do Estado do Rio de Janeiro
+</p>
+
+</section>
+
+<footer>
+© PĀRSA – Achaemenid Studies Group
+</footer>
 
 </body>
 </html>
+```
