@@ -5,267 +5,416 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>
-        Projeto ARTA — PĀRSA
-    </title>
+    <title>Projeto ARTA — PĀRSA</title>
 
     <meta name="description"
-          content="Seleção de estudantes para o Projeto de Extensão ARTA — Arqueologia, Recepção e Educação Patrimonial no Theatro e no Assyrio.">
+        content="Projeto de Extensão ARTA — Arqueologia, Recepção e Educação Patrimonial no Theatro e no Assyrio.">
 
-    <link rel="stylesheet"
-          href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
+        href="https://fonts.gstatic.com"
+        crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
 
     <style>
 
-        /* PÁGINA DO PROJETO */
+        /*
+        ========================================
+        PROJETO ARTA
+        Cores definidas explicitamente para
+        evitar problemas de contraste com style.css
+        ========================================
+        */
 
-        .project-hero {
-            position: relative;
-            min-height: 480px;
+        .arta-page {
+            background: #110d09;
+            color: #f5f1eb;
+        }
+
+
+        /* HERO */
+
+        .arta-hero {
+            min-height: 500px;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
 
-            background:
+            background-image:
                 linear-gradient(
-                    rgba(0, 0, 0, 0.58),
-                    rgba(0, 0, 0, 0.58)
+                    rgba(17, 13, 9, 0.60),
+                    rgba(17, 13, 9, 0.75)
                 ),
                 url("assyrio.jpg");
 
             background-size: cover;
             background-position: center;
-            color: white;
         }
 
-        .project-hero-content {
+        .arta-hero-content {
             max-width: 850px;
-            padding: 60px 25px;
+            padding: 80px 25px;
         }
 
-        .project-hero h1 {
-            font-family: "Cormorant Garamond", serif;
-            font-size: clamp(3rem, 7vw, 5.5rem);
+        .arta-tag {
+            display: block;
+            margin-bottom: 15px;
+
+            font-family: "Inter", sans-serif;
+            font-size: 0.75rem;
             font-weight: 500;
-            margin: 10px 0 20px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+
+            color: #e2b56d;
         }
 
-        .project-hero p {
-            font-size: 1.1rem;
-            line-height: 1.7;
+        .arta-hero h1 {
+            margin: 0 0 15px;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(4rem, 9vw, 7rem);
+            font-weight: 500;
+
+            color: #ffffff;
+        }
+
+        .arta-hero-description {
             max-width: 700px;
             margin: 0 auto;
+
+            font-family: "Inter", sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.7;
+
+            color: #ffffff;
         }
 
-        .project-tag {
-            font-size: 0.75rem;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-        }
 
-        .selection-section {
-            max-width: 1000px;
+        /* CONTEÚDO PRINCIPAL */
+
+        .arta-content {
+            max-width: 1180px;
             margin: 0 auto;
-            padding: 70px 25px;
+            padding: 70px 30px 90px;
         }
 
-        .selection-intro {
+        .arta-intro {
+            max-width: 800px;
+            margin: 0 auto 65px;
             text-align: center;
-            max-width: 750px;
-            margin: 0 auto 55px;
         }
 
-        .selection-intro h2,
-        .section-title {
+        .arta-intro h2,
+        .arta-section-title {
+            margin: 12px 0 20px;
+
             font-family: "Cormorant Garamond", serif;
-            font-size: 2.5rem;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
             font-weight: 500;
-            margin-bottom: 15px;
+
+            color: #e2b56d;
         }
 
-        .selection-intro p {
-            line-height: 1.8;
+        .arta-intro p {
+            font-family: "Inter", sans-serif;
             font-size: 1.05rem;
+            line-height: 1.8;
+
+            color: #f5f1eb;
         }
 
-        .highlight-grid {
+
+        /* DESTAQUES */
+
+        .arta-highlights {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
-            margin-bottom: 60px;
+            margin-bottom: 80px;
         }
 
-        .highlight-card {
+        .arta-highlight {
             padding: 30px 25px;
-            border: 1px solid #ddd;
             text-align: center;
+
+            background: #f4f1ec;
+            border-top: 4px solid #c8954f;
         }
 
-        .highlight-card strong {
+        .arta-highlight strong {
             display: block;
+            margin-bottom: 10px;
+
             font-family: "Cormorant Garamond", serif;
             font-size: 2.2rem;
-            font-weight: 500;
-            margin-bottom: 8px;
+            font-weight: 600;
+
+            color: #1a1410;
         }
 
-        .highlight-card span {
+        .arta-highlight span {
+            display: block;
+
+            font-family: "Inter", sans-serif;
             font-size: 0.9rem;
-            line-height: 1.5;
+            line-height: 1.6;
+
+            color: #3b332b;
         }
 
-        .candidate-section {
-            margin-bottom: 60px;
+
+        /* SEÇÕES */
+
+        .arta-section {
+            margin-bottom: 75px;
         }
 
-        .candidate-section p,
-        .candidate-section li {
+        .arta-section p,
+        .arta-section li {
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
             line-height: 1.8;
+
+            color: #f5f1eb;
         }
 
-        .candidate-section ul {
-            padding-left: 20px;
+        .arta-section ul {
+            max-width: 850px;
+            padding-left: 25px;
         }
 
-        .activities-grid {
+        .arta-section li {
+            margin-bottom: 12px;
+        }
+
+
+        /* FRENTES DE ATUAÇÃO */
+
+        .arta-activities {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
+            gap: 24px;
         }
 
-        .activity-card {
-            padding: 25px;
-            background: #f5f5f3;
+        .arta-activity {
+            padding: 32px;
+
+            background: #f4f1ec;
+            border: 1px solid #d6cec3;
         }
 
-        .activity-card h3 {
+        /*
+        Regras explícitas: impedem que o style.css
+        deixe os textos claros sobre fundo claro.
+        */
+
+        .arta-activity h3 {
+            margin: 0 0 15px;
+
             font-family: "Cormorant Garamond", serif;
-            font-size: 1.7rem;
+            font-size: 2rem;
             font-weight: 600;
-            margin-top: 0;
-            margin-bottom: 10px;
+
+            color: #9b6b2f !important;
         }
 
-        .activity-card p {
-            margin-bottom: 0;
-            line-height: 1.7;
-            font-size: 0.95rem;
+        .arta-activity p {
+            margin: 0;
+
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
+            line-height: 1.8;
+
+            color: #2b2621 !important;
         }
 
-        .schedule-box {
-            background: #f5f5f3;
-            padding: 35px;
-            margin: 40px 0;
+
+        /* CRONOGRAMA */
+
+        .arta-schedule {
+            padding: 25px 42px;
+
+            background: #f4f1ec;
+            border: 1px solid #d6cec3;
         }
 
-        .schedule-item {
+        .arta-schedule-item {
             display: flex;
+            align-items: center;
             justify-content: space-between;
-            gap: 20px;
-            padding: 13px 0;
-            border-bottom: 1px solid #d8d8d8;
+            gap: 30px;
+
+            padding: 18px 0;
+
+            border-bottom: 1px solid #cfc7bd;
         }
 
-        .schedule-item:last-child {
+        .arta-schedule-item:last-child {
             border-bottom: none;
         }
 
-        .schedule-date {
-            font-weight: 600;
-        }
-
-        .application-box {
-            text-align: center;
-            padding: 55px 30px;
-            border: 1px solid #222;
-            margin-top: 50px;
-        }
-
-        .application-box h2 {
-            font-family: "Cormorant Garamond", serif;
-            font-size: 2.8rem;
+        .arta-schedule-event {
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
             font-weight: 500;
-            margin-top: 0;
+
+            color: #28231e !important;
         }
 
-        .application-box p {
-            max-width: 700px;
-            margin: 15px auto;
+        .arta-schedule-date {
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: right;
+
+            color: #7b5223 !important;
+        }
+
+
+        /* CAIXA DE INSCRIÇÃO */
+
+        .arta-application {
+            padding: 60px 35px;
+            text-align: center;
+
+            background: #e2b56d;
+            color: #1a1410;
+        }
+
+        .arta-application .arta-tag {
+            color: #5e3d19;
+        }
+
+        .arta-application h2 {
+            margin: 10px 0 20px;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: 3.5rem;
+            font-weight: 500;
+
+            color: #1a1410;
+        }
+
+        .arta-application p {
+            max-width: 750px;
+            margin: 12px auto;
+
+            font-family: "Inter", sans-serif;
+            font-size: 1rem;
             line-height: 1.8;
+
+            color: #1a1410;
         }
 
-        .application-email {
-            font-size: 1.1rem;
+        .arta-email {
+            margin-top: 20px !important;
+            font-size: 1.1rem !important;
             font-weight: 600;
         }
 
-        .button-group {
-            margin-top: 30px;
+        .arta-buttons {
             display: flex;
             justify-content: center;
             gap: 15px;
             flex-wrap: wrap;
+
+            margin-top: 30px;
         }
 
-        .project-button {
+        .arta-button {
             display: inline-block;
-            padding: 15px 25px;
-            text-decoration: none;
-            font-size: 0.85rem;
-            letter-spacing: 0.08em;
+
+            padding: 15px 24px;
+
+            font-family: "Inter", sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.06em;
             text-transform: uppercase;
-            border: 1px solid #222;
-            transition: 0.3s;
+            text-decoration: none;
+
+            transition: opacity 0.2s ease;
         }
 
-        .project-button.primary {
-            background: #222;
-            color: white;
+        .arta-button:hover {
+            opacity: 0.8;
         }
 
-        .project-button.secondary {
-            background: white;
-            color: #222;
+        .arta-button-primary {
+            background: #1a1410;
+            color: #ffffff !important;
+            border: 1px solid #1a1410;
         }
 
-        .project-button:hover {
-            opacity: 0.75;
+        .arta-button-secondary {
+            background: transparent;
+            color: #1a1410 !important;
+            border: 1px solid #1a1410;
         }
 
-        .notice {
-            font-size: 0.85rem;
-            color: #666;
-            margin-top: 25px;
+        .arta-notice {
+            margin-top: 25px !important;
+            font-size: 0.85rem !important;
         }
 
-        @media (max-width: 700px) {
 
-            .highlight-grid,
-            .activities-grid {
+        /* RESPONSIVIDADE */
+
+        @media (max-width: 800px) {
+
+            .arta-highlights {
                 grid-template-columns: 1fr;
             }
 
-            .schedule-item {
-                flex-direction: column;
-                gap: 4px;
+            .arta-activities {
+                grid-template-columns: 1fr;
             }
 
-            .project-hero {
-                min-height: 420px;
+            .arta-schedule {
+                padding: 20px 25px;
+            }
+
+            .arta-schedule-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+
+            .arta-schedule-date {
+                text-align: left;
+            }
+
+        }
+
+        @media (max-width: 600px) {
+
+            .arta-content {
+                padding: 50px 20px 70px;
+            }
+
+            .arta-hero {
+                min-height: 430px;
+            }
+
+            .arta-activity {
+                padding: 25px;
+            }
+
+            .arta-application {
+                padding: 45px 22px;
+            }
+
+            .arta-application h2 {
+                font-size: 2.8rem;
             }
 
         }
@@ -274,9 +423,11 @@
 
 </head>
 
-<body>
 
-<!-- NAVBAR -->
+<body class="arta-page">
+
+
+<!-- MENU -->
 
 <nav class="navbar">
 
@@ -339,11 +490,11 @@
 
 <!-- HERO -->
 
-<header class="project-hero">
+<header class="arta-hero">
 
-    <div class="project-hero-content">
+    <div class="arta-hero-content">
 
-        <span class="project-tag">
+        <span class="arta-tag">
             NEA/UERJ · Projeto de Extensão SIEXT 8316/2026
         </span>
 
@@ -351,7 +502,7 @@
             ARTA
         </h1>
 
-        <p>
+        <p class="arta-hero-description">
             Arqueologia, Recepção e Educação Patrimonial
             no Theatro e no Assyrio
         </p>
@@ -361,13 +512,16 @@
 </header>
 
 
-<!-- PROCESSO SELETIVO -->
+<!-- CONTEÚDO -->
 
-<section class="selection-section">
+<main class="arta-content">
 
-    <div class="selection-intro">
 
-        <span class="section-tag">
+    <!-- APRESENTAÇÃO -->
+
+    <section class="arta-intro">
+
+        <span class="arta-tag">
             PROCESSO SELETIVO
         </span>
 
@@ -382,68 +536,71 @@
             com o Theatro Municipal do Rio de Janeiro.
         </p>
 
-    </div>
+    </section>
 
 
     <!-- DESTAQUES -->
 
-    <div class="highlight-grid">
+    <section class="arta-highlights">
 
-        <div class="highlight-card">
+        <div class="arta-highlight">
 
             <strong>
                 Até 10 vagas
             </strong>
 
             <span>
-                6 para graduação e 4 para pós-graduação
+                6 para estudantes de graduação e
+                4 para estudantes de pós-graduação
             </span>
 
         </div>
 
-        <div class="highlight-card">
+        <div class="arta-highlight">
 
             <strong>
                 60 horas
             </strong>
 
             <span>
-                Carga horária semestral por participante
+                Carga horária semestral prevista
+                para cada participante
             </span>
 
         </div>
 
-        <div class="highlight-card">
+        <div class="arta-highlight">
 
             <strong>
                 Horários flexíveis
             </strong>
 
             <span>
-                Definidos com a coordenação, conforme as atividades
+                Organizados com a coordenação,
+                conforme as atividades do projeto
             </span>
 
         </div>
 
-    </div>
+    </section>
 
 
-    <!-- QUEM PODE -->
+    <!-- QUEM PODE PARTICIPAR -->
 
-    <div class="candidate-section">
+    <section class="arta-section">
 
-        <span class="section-tag">
+        <span class="arta-tag">
             QUEM PODE SE CANDIDATAR
         </span>
 
-        <h2 class="section-title">
+        <h2 class="arta-section-title">
             Público-alvo
         </h2>
 
         <ul>
 
             <li>
-                Estudantes de graduação com matrícula ativa na UERJ;
+                Estudantes de graduação com matrícula ativa na UERJ.
             </li>
 
             <li>
@@ -454,95 +611,97 @@
 
         </ul>
 
-    </div>
+    </section>
 
 
-    <!-- ATIVIDADES -->
+    <!-- FRENTES DE ATUAÇÃO -->
 
-    <div class="candidate-section">
+    <section class="arta-section">
 
-        <span class="section-tag">
+        <span class="arta-tag">
             O QUE VOCÊ PODERÁ FAZER
         </span>
 
-        <h2 class="section-title">
+        <h2 class="arta-section-title">
             Frentes de atuação
         </h2>
 
-        <div class="activities-grid">
+        <div class="arta-activities">
 
-            <div class="activity-card">
+
+            <article class="arta-activity">
 
                 <h3>
                     Arqueologia e Recepção
                 </h3>
 
                 <p>
-                    Pesquisa sobre referências assírias, persas e do
-                    mundo clássico na arquitetura e na decoração do
-                    Theatro Municipal, incluindo conteúdos de divulgação
-                    e recursos digitais.
+                    Pesquisa sobre referências assírias, persas e do mundo
+                    clássico na arquitetura e na decoração do Theatro Municipal,
+                    incluindo conteúdos de divulgação e recursos digitais.
                 </p>
 
-            </div>
+            </article>
 
-            <div class="activity-card">
+
+            <article class="arta-activity">
 
                 <h3>
                     Espaços de Recordação
                 </h3>
 
                 <p>
-                    Pesquisa sobre a história do Salão Assyrio por meio
-                    de documentos, jornais, arquivos e outras fontes
-                    históricas.
+                    Pesquisa sobre a história do Salão Assyrio por meio de
+                    documentos, jornais, arquivos e outras fontes históricas.
                 </p>
 
-            </div>
+            </article>
 
-            <div class="activity-card">
+
+            <article class="arta-activity">
 
                 <h3>
                     Apadana
                 </h3>
 
                 <p>
-                    Participação no planejamento e na realização de
-                    visitas e percursos educativos no Theatro Municipal.
-                    As atividades presenciais ocorrem durante a manhã
-                    ou a tarde.
+                    Participação no planejamento e na realização de visitas
+                    e percursos educativos no Theatro Municipal. As atividades
+                    presenciais ocorrem durante a manhã ou a tarde.
                 </p>
 
-            </div>
+            </article>
 
-            <div class="activity-card">
+
+            <article class="arta-activity">
 
                 <h3>
                     Mãos na Argila
                 </h3>
 
                 <p>
-                    Preparação e realização de oficinas sobre a história
-                    da escrita e a produção de tabletes cuneiformes para
-                    públicos de diferentes idades.
+                    Preparação e realização de oficinas sobre a história da
+                    escrita e a produção de tabletes cuneiformes para públicos
+                    de diferentes idades.
                 </p>
 
-            </div>
+            </article>
+
 
         </div>
 
-    </div>
+    </section>
 
 
-    <!-- COMO SE INSCREVER -->
+    <!-- INSCRIÇÃO -->
 
-    <div class="candidate-section">
+    <section class="arta-section">
 
-        <span class="section-tag">
+        <span class="arta-tag">
             INSCRIÇÃO
         </span>
 
-        <h2 class="section-title">
+        <h2 class="arta-section-title">
             O que enviar?
         </h2>
 
@@ -550,119 +709,127 @@
 
             <li>
                 Resumo curricular com nome, contato, curso, unidade
-                acadêmica e nível de formação;
+                acadêmica e nível de formação.
             </li>
 
             <li>
-                Comprovante de matrícula ativa;
+                Comprovante de matrícula ativa.
             </li>
 
             <li>
                 Carta de motivação de até duas páginas, indicando seus
-                interesses, experiências relevantes e eixo(s) de preferência.
+                interesses, experiências relevantes e eixo ou eixos
+                de preferência.
             </li>
 
         </ul>
 
-    </div>
+    </section>
 
 
     <!-- CRONOGRAMA -->
 
-    <div class="candidate-section">
+    <section class="arta-section">
 
-        <span class="section-tag">
+        <span class="arta-tag">
             DATAS IMPORTANTES
         </span>
 
-        <h2 class="section-title">
+        <h2 class="arta-section-title">
             Cronograma
         </h2>
 
-        <div class="schedule-box">
+        <div class="arta-schedule">
 
-            <div class="schedule-item">
 
-                <span>
+            <div class="arta-schedule-item">
+
+                <span class="arta-schedule-event">
                     Publicação do edital
                 </span>
 
-                <span class="schedule-date">
+                <span class="arta-schedule-date">
                     08/11/2026
                 </span>
 
             </div>
 
-            <div class="schedule-item">
 
-                <span>
+            <div class="arta-schedule-item">
+
+                <span class="arta-schedule-event">
                     Período de inscrições
                 </span>
 
-                <span class="schedule-date">
+                <span class="arta-schedule-date">
                     09/11/2026 a 20/11/2026
                 </span>
 
             </div>
 
-            <div class="schedule-item">
 
-                <span>
+            <div class="arta-schedule-item">
+
+                <span class="arta-schedule-event">
                     Análise documental e curricular
                 </span>
 
-                <span class="schedule-date">
+                <span class="arta-schedule-date">
                     20/11/2026
                 </span>
 
             </div>
 
-            <div class="schedule-item">
 
-                <span>
+            <div class="arta-schedule-item">
+
+                <span class="arta-schedule-event">
                     Resultado preliminar
                 </span>
 
-                <span class="schedule-date">
+                <span class="arta-schedule-date">
                     21/11/2026
                 </span>
 
             </div>
 
-            <div class="schedule-item">
 
-                <span>
+            <div class="arta-schedule-item">
+
+                <span class="arta-schedule-event">
                     Prazo para recurso
                 </span>
 
-                <span class="schedule-date">
+                <span class="arta-schedule-date">
                     22/11/2026
                 </span>
 
             </div>
 
-            <div class="schedule-item">
 
-                <span>
+            <div class="arta-schedule-item">
+
+                <span class="arta-schedule-event">
                     Resultado final
                 </span>
 
-                <span class="schedule-date">
+                <span class="arta-schedule-date">
                     23/11/2026
                 </span>
 
             </div>
 
+
         </div>
 
-    </div>
+    </section>
 
 
-    <!-- CHAMADA FINAL -->
+    <!-- CANDIDATURA -->
 
-    <div class="application-box">
+    <section class="arta-application">
 
-        <span class="section-tag">
+        <span class="arta-tag">
             PARTICIPE
         </span>
 
@@ -671,11 +838,11 @@
         </h2>
 
         <p>
-            Envie sua candidatura com o assunto
+            Envie sua candidatura com o assunto:
             <strong>“Seleção de monitoria – Projeto ARTA”</strong>.
         </p>
 
-        <p class="application-email">
+        <p class="arta-email">
             matheus.treuk@uerj.br
         </p>
 
@@ -684,41 +851,41 @@
             <strong>neaeventos@gmail.com</strong>
         </p>
 
-        <div class="button-group">
 
-            <a href="mailto:matheus.treuk@uerj.br?cc=neaeventos@gmail.com&subject=Seleção%20de%20monitoria%20–%20Projeto%20ARTA"
-               class="project-button primary">
+        <div class="arta-buttons">
+
+            <a
+                href="mailto:matheus.treuk@uerj.br?cc=neaeventos@gmail.com&subject=Seleção%20de%20monitoria%20-%20Projeto%20ARTA"
+                class="arta-button arta-button-primary">
 
                 Enviar inscrição
 
             </a>
 
-            <a href="Edital_Monitoria_Projeto_ARTA_SIEXT.pdf"
-               download
-               class="project-button secondary">
 
-               <a href="Edital_Monitoria_Projeto_ARTA_SIEXT.pdf"
-   download
-   class="project-button secondary">
+            <a
+                href="Edital_Monitoria_Projeto_ARTA_SIEXT.pdf"
+                target="_blank"
+                class="arta-button arta-button-secondary">
 
-    Baixar edital completo (PDF)
-
-</a>
+                Ler edital completo
 
             </a>
 
         </div>
 
-        <p class="notice">
+
+        <p class="arta-notice">
             Leia atentamente o edital completo antes de realizar sua inscrição.
         </p>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- FOOTER -->
+</main>
+
+
+<!-- RODAPÉ -->
 
 <footer>
 
@@ -735,6 +902,7 @@
     </p>
 
 </footer>
+
 
 </body>
 
